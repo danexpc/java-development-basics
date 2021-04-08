@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration status="WARN">
+    <appenders>
+        <File name="infoLog" fileName="src/main/logs/info.log">
+            <PatternLayout pattern="%d [%t] %-5level %logger{36} - %msg%n"/>
+        </File>
+
+        <File name="errorLog" fileName="src/main/logs/error.log">
+            <PatternLayout pattern="%d [%t] %-5level %logger{36} - %msg%n"/>
+        </File>
+    </appenders>
+
+    <loggers>
+        <root level="debug">
+            <appender-ref ref="errorLog" level="error"/>
+            <appender-ref ref="infoLog" level="info"/>
+        </root>
+    </loggers>
+</configuration>
