@@ -1,0 +1,1 @@
+[|	Item #  2	|	type:         Cooktop	|	model:          HD4928	|	name:              Philips Induction Cook	|	firm:      Philips	|	quantity:     4	|	price: 2900,00	|	date of production: 2017	|, |	Item #  3	|	type:         Cooktop	|	model:        PIC 20.0	|	name:          Prestige Induction Cooktop	|	firm:     Prestige	|	quantity:     8	|	price: 3100,00	|	date of production: 2018	|]
